@@ -20,4 +20,11 @@
    > Getter and Setter
    > Static method 
 
+6. Inheritance 
+   > Inheritance code example
+   > why inheritance is Needed?
+   > What gets Inherited ?
+   > Constructor Overloading & method overloading 
+   > Super keywords
+   > Types of Inheritance 
 
