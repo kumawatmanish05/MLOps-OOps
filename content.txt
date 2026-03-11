@@ -1,1 +1,23 @@
 1. Class and Object 
+2. Class has data /attribute and funcn/methods 
+   > Code walkthrough
+   > attribute get called itself, methods are called manually 
+
+3. Why Python is called OOP?
+4. Advantages of OOps:
+   > You can create your own dataType
+   > Code Reusability 
+   > Debugging
+   > Easy to colab
+
+5. End to End Project(Chatbook Class)
+   > Function vs methods
+   > magic method or dunder method 
+   > Self
+   > You can create attribute outside class as well
+
+   > Encapsulation
+   > Getter and Setter
+   > Static method 
+
+

@@ -1,9 +1,16 @@
 class chatbook:
     def __init__(self):
-        self.username = ''
+        self.username = 'Default User'
         self.password = ''
         self.loggedin = False
         self.menu()
+
+
+    def get_name(self):
+        return self.__name 
+    
+    def set_name(self, value):
+        self.__name = value
 
 
     def menu(self):
@@ -69,4 +76,4 @@ class chatbook:
 
 
 
-# obj = chatbook()
+obj = chatbook()
