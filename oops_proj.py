@@ -31,6 +31,7 @@ class chatbook:
         self.username = email
         self.password = pwd
         print("You have signed up successfully !!")
+        print("\n")
         self.menu()
 
     def signin(self):
@@ -53,17 +54,19 @@ class chatbook:
             print(f"Your post '{post}' has been posted successfully !!")
         else:
             print("You need to login first to write a post !!")
+            print("\n")
             self.menu()
 
     def message_friend(self):
-        if self.loggedin:
+        if self.loggedin == True:
             friend = input("Enter your friend's name Here ->")
             message = input("Enter your message Here ->")
             print(f"Your message '{message}' has been sent to {friend} successfully !!")
         else:
             print("You need to login first to message a friend !!")
+            print("\n")
             self.menu()
 
 
 
-obj = chatbook()
+# obj = chatbook()
